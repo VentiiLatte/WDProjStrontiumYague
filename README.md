@@ -4,7 +4,7 @@
 ### *Fill your paper with the breathings of your heart. - William Wordsworth*
 
 ### 🐾 Logo:
-<img width="500" height="500" alt="Modern Bold Book With Pen" src="file:///C:/Users/Raffy/Downloads/image.png" />
+<img width="500" height="500" alt="Modern Bold Book With Pen" src="https://postimg.cc/vDd9g4nC" />
 
 ### 🧩 Wireframe:
 [View Wireframe on Canva](https://www.canva.com/design/DAG3LVHRcg4/GLGo5Lrm4eBJC09hTn2fCA/edit?utm_content=DAG3LVHRcg4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
