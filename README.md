@@ -1,6 +1,6 @@
-# CS3 2nd Quarter Project Proposal - Rafael&Miguel Yague
+# CS3 2nd Quarter Project Proposal - Rafael & Miguel Yague
 
-# ☕ Weekly Whispers
+# 📜𓍢ִ໋🀦✎ᝰ Weekly Whispers
 ### *Fill your paper with the breathings of your heart. - William Wordsworth*
 
 ### 🐾 Logo:
