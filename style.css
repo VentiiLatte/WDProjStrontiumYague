@@ -1,0 +1,149 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7e6;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  background: linear-gradient(180deg, #fff 0%, #f0f0d0 100%);
+  padding: 0 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: #d1c4e9;
+  border-bottom: 3px solid #7e57c2;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 12px 12px 0 0;
+}
+
+.nav-link {
+  color: #4a148c;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 8px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  border-radius: 5px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  background-color: #b39ddb;
+  color: white;
+}
+
+.content-section {
+  padding: 30px 0;
+  display: none;
+}
+
+#home {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#home h2 {
+  font-size: 2.2em;
+  color: #7e57c2;
+  margin-bottom: 10px;
+}
+
+.home-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.home-button {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  width: 160px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s;
+  border: 1px solid #e0e0e0;
+}
+
+.home-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.home-button .icon {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+  color: #ffab40;
+}
+
+.journal-entry-container {
+  border: 1px solid #dcdcdc;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #fffaf0;
+  margin-bottom: 15px;
+}
+
+.journal-entry-container h3 {
+  border-bottom: 2px solid #ffab40;
+  padding-bottom: 5px;
+  margin-top: 0;
+  color: #7e57c2;
+}
+
+.post-entry {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.forum-post {
+  border-left: 4px solid #4fc3f7;
+  background-color: #e1f5fe;
+}
+
+.journal-entry {
+  border-left: 4px solid #aed581;
+  background-color: #f1f8e9;
+}
+
+.meta {
+  font-size: 0.8em;
+  color: #777;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.week-summary {
+  border: 1px solid #b39ddb;
+  margin-bottom: 25px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.credits-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.credits-list li {
+  margin: 5px 0;
+  padding: 3px;
+}

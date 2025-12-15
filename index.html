@@ -1,0 +1,100 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Whispers</title>
+    <link rel="icon" type="image/png" href="image.png">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Logo -->
+    <figure>
+        <img src="image.png" alt="Weekly Whispers Logo" class="site-logo" height="100px">
+    </figure>
+
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <a href="#" class="nav-link" data-target="home" id="nav-home">🏠 Home</a>
+            <a href="#" class="nav-link" data-target="journal" id="nav-journal">✍️ Journal</a>
+            <a href="#" class="nav-link" data-target="archive" id="nav-archive">📦 Archive</a>
+            <a href="#" class="nav-link" data-target="forum" id="nav-forum">💬 Forum</a>
+            <a href="#" class="nav-link" data-target="contacts" id="nav-contacts">🔗 Contacts</a>
+        </nav>
+
+        <!-- Sections -->
+        <section id="home" class="content-section">
+            <h2>Welcome to Weekly Whispers</h2>
+            <p>Where your thoughts drift and each week begins anew. 🌅</p>
+        </section>
+
+        <section id="journal" class="content-section">
+            <h2>✍️ Daily Journal Entries</h2>
+            <form id="journal-form" data-type="journal">
+                <label for="journal_day">Day's Focus:</label>
+                <select id="journal_day" required>
+                    <option>Monday</option><option>Tuesday</option><option>Wednesday</option>
+                    <option>Thursday</option><option>Friday</option><option>Saturday</option>
+                    <option>Sunday</option>
+                </select><br>
+                <label for="journal_content">What's on your mind today?</label>
+                <textarea id="journal_content" rows="6" required></textarea><br>
+                <label for="journal_author">Signed by:</label>
+                <input type="text" id="journal_author" required><br>
+                <button type="submit">Submit Entry</button>
+            </form>
+            <div id="journal-posts-container"></div>
+        </section>
+
+        <section id="forum" class="content-section">
+            <h2>💬 Community Forum</h2>
+            <form id="forum-form" data-type="forum">
+                <label for="forum_content">Share a thought or a question:</label>
+                <textarea id="forum_content" rows="4" required></textarea><br>
+                <label for="forum_author">Signed by:</label>
+                <input type="text" id="forum_author" required><br>
+                <button type="submit">Post to Forum</button>
+            </form>
+            <div id="forum-posts-container"></div>
+        </section>
+
+        <section id="archive" class="content-section">
+            <h2>📦 Archive: Past Cycles & Credits</h2>
+            <div id="archive-container"></div>
+        </section>
+
+        <section id="contacts" class="content-section">
+            <h2>🔗 Connections</h2>
+            <div class="home-grid" style="gap: 20px; flex-wrap: wrap;">
+                <a href="#" class="home-button"><div class="icon">📷</div> Insta</a>
+                <a href="#" class="home-button"><div class="icon">🐦</div> X/Twitter</a>
+                <a href="#" class="home-button"><div class="icon">🎧</div> Discord</a>
+                <a href="#" class="home-button"><div class="icon">📧</div> Email</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p><strong>References (APA)</strong></p>
+            <p style="font-size:0.7em; color:#666; margin:3px 0;">
+                Mozilla Developer Network. (2024). <em>HTML basics</em>. 
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">MDN HTML</a>
+            </p>
+            <p style="font-size:0.7em; color:#666; margin:3px 0;">
+                Mozilla Developer Network. (2024). <em>CSS basics</em>. 
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank">MDN CSS</a>
+            </p>
+            <p style="font-size:0.7em; color:#666; margin:3px 0;">
+                Mozilla Developer Network. (2024). <em>JavaScript basics</em>. 
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">MDN JS</a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>
