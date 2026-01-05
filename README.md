@@ -1,7 +1,7 @@
 # CS3 2nd Quarter Project Proposal - Rafael & Miguel Yague
 
 # 📜𓍢ִ໋🀦✎ᝰ Weekly Whispers
-### *Fill your paper with the breathings of your heart. - William Wordsworth*
+### *"Fill your paper with the breathings of your heart." - William Wordsworth*
 
 ### 📒 Logo:
 <img width="500" height="500" alt="Modern Bold Book With Pen" src="https://github.com/VentiiLatte/WDProjStrontiumYague/blob/main/image.png" />
