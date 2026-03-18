@@ -10,6 +10,8 @@
 [View Wireframe on Canva](https://www.canva.com/design/DAG3eudYXPM/peSoksbAvitz9LWjTvImFg/edit?utm_content=DAG3eudYXPM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 📑 Description
+**What is this project for?**
+This project is for individuals who want to breath, write down their words whenever they want to talk about something wether it be a problem, something school related, or even an intresting fun fact about someone you know. When keeping things to yourself and bottling them up starts to get overwhelming, you can come to our website to open the bottle and pour out those thoughts out. Our website is an anonymous safespace where you can talk about things you normally wouldn't talk about and you wont be judged. Everyone is a wonderer here just like you, you can talk to other users through the forums and you can tyoe down your thoughts in the online journal for no stress for others to see your journal from a book. After a week all things in the journal will move to the archive.
 
 **Weekly Whispers** is an online journal where it is designed to capture your week - one day at a time. It helps you reflect on your thoughts, moods, and experiences through short daily summaries. Each week serves as a fresh start, clearing the slate for new memories and moments to take shape. At the end of the week, your entries reset to make room for the next chapter. This system encourages mindfulness and the idea of letting go - that not everything has to be kept forever. It’s about living in the moment and appreciating how your thoughts and feelings change over time.**
 
@@ -39,10 +41,10 @@ For the Journal page, it tracks the day of the week, and prompts users before a 
 Lastly, on the Contact page, it leads to our team's official socials, enabling the creators to have feedback.
 
 ## 🌐 **How The CRUD process will be implemented** 
-CREATE: 
-READ:
-UPDATE:
-DELETE:
+CREATE: This is the process of adding new data to your journal, when a user posts a new entry in the forum, when a user writes a new entry and clicks "submit entry", a javascript function will capture the input values   and save it to localstorage.
+READ: When the user logs in and sees a list of their previous entries, javascript fetches the data abd generates html elements to show the logs.
+UPDATE: If the user notices a typo in their post, they can click edit to change and update the post. Javascript lets the user change it and sends the updated version back to the storage.
+DELETE: Users can click "delete" to remove a post they made or entry in their journal. Javascript removes the data permanently or soft deletes it by hiding it.
 _________________________________________________________________________________________________________________________________________________
 
 # CS3 3rd Quarter Project Proposal - Rafael & Miguel Yague
