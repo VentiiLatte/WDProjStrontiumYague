@@ -1,4 +1,4 @@
-# CS3 4rd Quarter Project Final Modification Proposal - Rafael & Miguel Yague
+# CS3 4th Quarter Project Final Modification Proposal - Rafael & Miguel Yague
 
 # 📜𓍢ִ໋🀦✎ᝰ Tabula (Latin for blank slate)
 ### *"Fill your paper with the breathings of your heart." - William Wordsworth*
