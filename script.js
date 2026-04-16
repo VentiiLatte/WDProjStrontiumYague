@@ -139,8 +139,14 @@ function formatPost(post, className) {
     <div class="post-entry ${className}">
       <strong>${post.type.toUpperCase()}</strong> ${post.day ? ' (' + post.day + ')' : ''}
       <p>${post.content}</p>
-      <div class="meta">Posted by <strong>${post.author}</strong> at ${formattedTime}. — Earned ${post.credits} Whisper Credit</div>
-    </div>
+      <div class="meta">
+  Posted by <strong>${post.author}</strong> at ${formattedTime}. — Earned ${post.credits} Whisper Credit
+</div>
+
+<div style="margin-top:8px; display:flex; gap:6px;">
+  <button onclick="editPost(${post.id})">Edit</button>
+  <button onclick="deletePost(${post.id})">Delete</button>
+</div>
   `;
 }
 
@@ -182,4 +188,24 @@ function switchSection(targetId, clickedButton) {
   targetSection.setAttribute('tabindex', '-1');
   targetSection.focus();
   targetSection.removeAttribute('tabindex');
+}
+
+function deletePost(id) {
+  let active = get(ACTIVE_KEY);
+
+  active = active.filter(post => post.id !== id);
+
+  save(ACTIVE_KEY, active);
+  renderActiveContent();
+}
+
+function editPost(id) {
+  let active = get(ACTIVE_KEY);
+  let post = active.find(p => p.id === id);
+  if (!post) return;
+  let newContent = prompt("Edit your post:", post.content);
+  if (newContent === null || newContent.trim() === "") return;
+  post.content = newContent;
+  save(ACTIVE_KEY, active);
+  renderActiveContent();
 }
